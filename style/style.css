@@ -71,27 +71,36 @@ p {
   padding: 18px 46px;
 }
 
-.about-section h1 {
+.content-container {
+  margin: 30px;
+}
+
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-weight: 700;
   color: #272142;
 }
 
-.about-section img {
+.content img {
   border-radius: 10px;
 }
 
-.about-section {
+.content {
   padding: 150px 20px;
 }
 
-.about-content {
+.content-container {
   margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--defoult-font-family);
 }
 
 @media (max-width: 900px) {
