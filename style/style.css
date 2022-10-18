@@ -94,10 +94,6 @@ p {
   padding: 150px 20px;
 }
 
-.content-container {
-  margin: 30px;
-}
-
 .content h3 {
   font-size: 24px;
   font-family: var(--defoult-font-family);
@@ -122,7 +118,7 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
