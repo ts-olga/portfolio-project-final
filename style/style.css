@@ -16,6 +16,11 @@ h3 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+  margin: 30px auto;
+}
+
 h2 {
   font-size: 64px;
 }
@@ -25,6 +30,10 @@ p {
   color: #272142b2;
   font-size: 16px;
   padding: 30px 0px;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
 
 .btn-details,
@@ -46,11 +55,6 @@ p {
   color: #272142;
 }
 
-.hero h1 {
-  font-size: 96px;
-  margin: 30px auto;
-}
-
 .hero h2 {
   font-family: var(--defoult-font-family);
   font-size: 24px;
@@ -65,4 +69,24 @@ p {
   color: white;
   font-size: 18px;
   padding: 18px 46px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
