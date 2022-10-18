@@ -71,6 +71,29 @@ p {
   padding: 18px 46px;
 }
 
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #272142;
+}
+
+.about-section img {
+  border-radius: 10px;
+}
+
+.about-section {
+  padding: 150px 20px;
+}
+
+.about-content {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -88,5 +111,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
