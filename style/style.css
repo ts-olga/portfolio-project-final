@@ -80,7 +80,7 @@ nav li {
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 150px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -105,7 +105,7 @@ nav li {
 }
 
 .content-container {
-  margin: 30px;
+  margin: 30px auto;
 }
 
 .content h1 {
@@ -123,8 +123,12 @@ nav li {
   border-radius: 10px;
 }
 
+.content a {
+  text-decoration: none;
+}
+
 .content {
-  padding: 150px 20px;
+  padding: 20px;
 }
 
 .content h3 {
@@ -168,6 +172,15 @@ footer .social-links a:hover {
   background-color: var(--secondary-color);
 }
 
+.icon {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+.icon:hover {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -177,7 +190,8 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+
+  h3 {
     font-size: 26px;
   }
   .hero {
