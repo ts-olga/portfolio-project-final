@@ -31,6 +31,34 @@ p {
   font-size: 16px;
   padding: 30px 0px;
 }
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+  transition: ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgba(39, 33, 66, 0.7);
+  color: var(--secondary-color);
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
 
 .project-description {
   padding: 120px 60px;
@@ -121,5 +149,9 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
